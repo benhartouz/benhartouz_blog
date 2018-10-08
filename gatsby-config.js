@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: "Portfolio v3",
-    description: "Personal WebSite",
+    description: "Javascript FullStack Developer",
     author: "@amanhimself",
     siteUrl: `http://www.amanhimself.me`
   },
@@ -30,7 +30,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-google-analytics`,
       options: {
-        trackingId: "UA-96738144-3",
+        trackingId: "UA-127170539-1",
         // Setting this parameter is optional (requried for some countries such as Germany)
         anonymize: true
       }

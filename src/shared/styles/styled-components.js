@@ -106,6 +106,30 @@ export const UnorderedList = styled.ul`
   padding: 0;
 `;
 
+export const Text = styled.p`
+  font-size : 20px;
+  line-height : 30px;
+  text-align : center;
+`;
+
+export const ContactMe = styled.a`
+  display : block;
+  font-size : 20px;
+  color : #FF6B6B;
+  text-transform: uppercase;
+  position: relative ; 
+  top : 5px;
+  ${props =>
+    props.href &&
+    `
+      border-bottom: 1px dashed rgba(255, 255, 255, 0.7);
+    `} 
+  padding-bottom: 1px;
+  &:hover {
+    color: #F7FFF7;
+  }
+`;
+
 export const UnderlinedLink = styled.a`
   color: white;
   text-decoration: none;

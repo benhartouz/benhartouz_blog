@@ -8,7 +8,7 @@ const Footer = () => {
     <div className={styles.footer}>
       <div className={styles.footerContainer}>
         <p>
-          🙏 Copyright © 2018 Aman Mittal | Site Developed & Designed using ⚛️ +{" "}
+          🙏 Copyright © 2018 Mohamed BEN HARTOUZ | Site Developed & Designed using ⚛️ +{" "}
           <img
             src={GatsbyLogo}
             alt="gatsby-logo"

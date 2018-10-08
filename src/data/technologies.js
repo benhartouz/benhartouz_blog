@@ -3,9 +3,9 @@ export const devstack = [
   { name: "Node.js" },
   { name: "Expressjs" },
   { name: "React" },
+  { name: "React Native" },
   { name: "Gatsbyjs" },
-  { name: "create-react-app" },
-  { name: "MongoDB / MySQL" }
+  { name: "MongoDB /Realm /MySQL " }
 ];
 
 export const technologies = [
@@ -23,9 +23,11 @@ export const technologies = [
   "Gulp",
   "Grunt",
   "Yeoman",
-  "Jade/Pug",
+  "Jade/Pug/Twig",
   "Handlebars",
   "EJS",
   "Mocha",
-  "styled-components"
+  "styled-components",
+  "GraphQl", 
+  "tabris.js"
 ];

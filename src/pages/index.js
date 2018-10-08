@@ -9,7 +9,7 @@ import {
 
 import Info from "../components/Info";
 import Who from "../components/Who";
-import What from "../components/What";
+import CurrentProjects from "../components/CurrentProjects";
 import DevStack from "../components/DevStack";
 import Technologies from "../components/Technologies";
 import Projects from "../components/Projects";
@@ -17,7 +17,7 @@ import SideProjects from "../components/SideProjects";
 import Blogs from "../components/Blogs";
 import OpenSourceCommits from "../components/OpenSourceCommits";
 import Libraries from "../components/Libraries";
-import Interesting from "../components/Interesting";
+import Contact from "../components/Contact";
 
 const IndexPage = () => (
   <div>
@@ -27,15 +27,17 @@ const IndexPage = () => (
       </LeftSide>
       <RightSideHome>
         <Who />
-        <What />
+        <CurrentProjects />
         <DevStack />
         <Technologies />
         <Projects />
-        <OpenSourceCommits />
-        <SideProjects />
-        <Blogs />
-        <Libraries />
-        <Interesting />
+        <Contact />
+        {/*
+          <OpenSourceCommits />
+          <SideProjects />
+          <Blogs />
+          <Libraries />
+        */}
       </RightSideHome>
     </Sides>
   </div>

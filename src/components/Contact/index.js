@@ -6,12 +6,16 @@ import {
   SectionTitle,
   UnorderedList,
   ListItem,
-  ShowMoreButton
+  ShowMoreButton,
+  ContactMe ,
+  Text
 } from "../../shared/styles/styled-components";
+
+import { links } from '../../data/socialLinks';
 
 import { interestingFacts } from "../../data/interesting";
 
-class Intersting extends Component {
+class Contact extends Component {
   state = {
     show: false,
     text: "Show me more"
@@ -27,20 +31,14 @@ class Intersting extends Component {
   render() {
     return (
       <Section>
-        <SectionTitle>Interesting</SectionTitle>
-        <ShowMoreButton onClick={() => this.handleClick()}>
-          {this.state.text}
-        </ShowMoreButton>
-        <ToggleDisplay show={this.state.show}>
-          <UnorderedList>
-            {interestingFacts.map(fact => (
-              <ListItem key={fact.description}>{fact.description}</ListItem>
-            ))}
-          </UnorderedList>
-        </ToggleDisplay>
+        <SectionTitle>Be in touch 📩 </SectionTitle>
+        <Text>
+          If you'd like to collaborate on a project, app or hire me as a consultant,
+          <ContactMe href={links.email}>drop me an email.</ContactMe>
+        </Text>  
       </Section>
     );
   }
 }
 
-export default Intersting;
+export default Contact;
