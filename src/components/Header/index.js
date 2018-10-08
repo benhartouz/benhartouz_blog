@@ -9,11 +9,11 @@ const Header = () => (
     <div className={styles.headerMaxWidthContainer}>
       <h2 className={styles.headerH1}>
         <Link to="/" className={'active'}>
-          about
+          About
         </Link>
         &nbsp;/&nbsp;
         <a href={links.medium} target="_blank" rel="noopener">
-          blog
+          Blog
         </a>
       </h2>
     </div>
