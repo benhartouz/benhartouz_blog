@@ -52,9 +52,21 @@ export const RightSideHome = styled(RightSide)`
   margin-left: 20px;
   position: relative;
 
+
+  ${media.tablet`
+    margin-top: 260px ;     
+  `};
+  ${media.phablet`
+    margin-top: 260px;
+  `};
   ${media.phoneM`
-      padding-left: 30px;
-    `};
+    margin-top: 260px;
+    padding-left: 30px;
+  `};
+  ${media.phone`
+    margin-top: 260px;
+  `};
+;
 `;
 
 export const Section = styled.section`
