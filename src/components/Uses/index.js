@@ -48,11 +48,17 @@ class Uses extends React.Component {
                 <HeaderDiv>
                     <h1>Uses</h1>
                 </HeaderDiv>
+                <p>
+                    As javascript developer this the tools i'm use during my
+                    daily project developpment
+                </p>
                 <HeaderDiv>
-                    <h1>Software and dev tools</h1>
+                    <h1>Software and Dev-Tools</h1>
                 </HeaderDiv>
                 <ul>
-                    <li>VS Code</li>
+                    <li>- Visual Studio Code</li>
+                    <li>- Google Chrome</li>
+                    <li>- Docker</li>
                 </ul>
             </div>
         );
