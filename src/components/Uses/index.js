@@ -1,43 +1,5 @@
 import React from "react";
-
-import { HeaderDiv } from "./styled-uses";
-/**
- * Blog
- *      
-This blog was built with Jekyll using the Hyde theme and is hosted on GitHub Pages.
-
-Terminal
-I use the Hyper terminal using the hyper-snazzy plugin and the Source Code Pro for Powerline font.
-
-I use the oh-my-zsh shell using the git npm z node brew zsh-syntax-highlighting zsh-nvm plugins.
-
-As for my prompt, I either use the spaceship-prompt or the agnoster ZSH_THEME that comes baked into Oh My ZSH!.
-
-Editor
-I’m currently using the VS Code editor using the Cobalt2 Official Theme and the Fira Code font (a monospaced font with programming ligatures).
-
-VS Code Extensions
-Some of the extensions that I regularly use are listed below…
-
-advanced-new-file
-Debugger for Chrome
-Duplicate action
-ESLint
-Formatting toggle
-GitLens — Git supercharged
-Import Cost
-Material Icon Theme
-Prettier - Code formatter
-Settings Sync
-TODO Highlight
-Vim
-Version Lens
-Tools
-Gif
-LICEcap
-Recordit
-kap
- */
+import { HeaderDiv, ListItem } from "./styled-uses";
 class Uses extends React.Component {
     constructor(props) {
         super(props);
@@ -46,19 +8,31 @@ class Uses extends React.Component {
         return (
             <div>
                 <HeaderDiv>
-                    <h1>Uses</h1>
+                    <h1>🔭 Uses 🔭</h1>
+                    <p>
+                        As JavaScript developer this the tools i used during my
+                        daily development.
+                    </p>
                 </HeaderDiv>
-                <p>
-                    As javascript developer this the tools i'm use during my
-                    daily project developpment
-                </p>
                 <HeaderDiv>
-                    <h1>Software and Dev-Tools</h1>
+                    <h1> 🌐 Software and Dev-Tools</h1>
                 </HeaderDiv>
                 <ul>
-                    <li>- Visual Studio Code</li>
-                    <li>- Google Chrome</li>
-                    <li>- Docker</li>
+                    <ListItem>Visual Studio Code</ListItem>
+                    <ListItem>Google Chrome</ListItem>
+                    <ListItem>iTerm and oh my zsh</ListItem>
+                    <ListItem>Todoist</ListItem>
+                    <ListItem>Slack</ListItem>
+                    <ListItem>Android Studio</ListItem>
+                    <ListItem>Xcode</ListItem>
+                    <ListItem>Postman</ListItem>
+                    <ListItem>Realm Studio</ListItem>
+                </ul>
+                <HeaderDiv>
+                    <h1> 🖥️ Hardware</h1>
+                </HeaderDiv>
+                <ul>
+                    <ListItem>MacBook pro (Retina, 13-inch, 2015)</ListItem>
                 </ul>
             </div>
         );
